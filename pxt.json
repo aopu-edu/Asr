@@ -1,15 +1,22 @@
 {
-    "name": "aopu_gesture",
-    "description": "Gesture recognition sensor of aopu",
+    "name": "Asr",
+    "version": "1.0.1",
+    "description": "Extension for YahBoom ASR V1.0.1",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "neopixel": "github:lzty634158/pxt-neopixel"
+	
+
     },
     "files": [
-        "main.ts",
         "README.md",
-        "_locales/zh-cn/aopu_gesture-strings.json"
+        "main.ts",
+        "_locales/zh-cn/Asr-strings.json",
+        "_locales/zh-tw/Asr-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
     ],
     "public": true
 }
